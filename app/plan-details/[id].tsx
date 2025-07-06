@@ -10,23 +10,7 @@ import {
   TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { 
-  ArrowLeft, 
-  Calendar, 
-  Clock, 
-  User,
-  Edit3,
-  Trash2,
-  Copy,
-  Play,
-  Pause,
-  CheckCircle,
-  X,
-  Save,
-  MoreHorizontal,
-  Target,
-  Activity
-} from 'lucide-react-native';
+import { ArrowLeft, Calendar, Clock, User, CreditCard as Edit3, Trash2, Copy, Play, Pause, CircleCheck as CheckCircle, X, Save, MoveHorizontal as MoreHorizontal, Target, Activity } from 'lucide-react-native';
 import { useColorScheme, getColors } from '@/hooks/useColorScheme';
 import { router, useLocalSearchParams } from 'expo-router';
 import { WorkoutPlan, Client, DayOfWeek } from '@/types/workout';
