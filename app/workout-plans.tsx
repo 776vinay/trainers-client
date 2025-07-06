@@ -10,7 +10,7 @@ import {
   Modal,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ArrowLeft, Plus, Search, Filter, Calendar, Users, Clock, Edit, Trash2, Copy, X, ChevronRight } from 'lucide-react-native';
+import { ArrowLeft, Plus, Search, Filter, Calendar, Users, Clock, CreditCard as Edit, Trash2, Copy, X, ChevronRight } from 'lucide-react-native';
 import { useColorScheme, getColors } from '@/hooks/useColorScheme';
 import { router } from 'expo-router';
 import { WorkoutPlan, Client } from '@/types/workout';
