@@ -10,21 +10,7 @@ import {
   TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { 
-  ArrowLeft, 
-  Clock, 
-  Dumbbell,
-  Edit3,
-  Trash2,
-  Copy,
-  Play,
-  X,
-  Save,
-  MoreHorizontal,
-  Target,
-  Activity,
-  Plus
-} from 'lucide-react-native';
+import { ArrowLeft, Clock, Dumbbell, CreditCard as Edit3, Trash2, Copy, Play, X, Save, MoveHorizontal as MoreHorizontal, Target, Activity, Plus } from 'lucide-react-native';
 import { useColorScheme, getColors } from '@/hooks/useColorScheme';
 import { router, useLocalSearchParams } from 'expo-router';
 import { WorkoutTemplate } from '@/types/workout';
